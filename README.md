@@ -11,5 +11,5 @@ flowchart TD
 graph TD;
   A[Inicio] --> B{Nota >6};
   B --> |SIM| C[Aprovado];
-  B --> |NAO| B[Reprovado];
+  B --> |NAO| D[Reprovado];
 ```
