@@ -37,6 +37,5 @@ D1["C8"]:::branco --> D2["C20"]:::amarelo --> D3["C50"]:::laranja --> D4["BD V 1
 classDef branco fill:#fff, stroke:#000, stroke-width:1px;
 classDef amarelo fill:#FFD8D, stroke:#000, stroke-width:1px;
 classDef laranja fill:#FFA223, stroke:#000, stroke-width:1px;
-clasDef vermelho fill:E64C3C, stroke:#000, stroke-width:1px;
+classDef vermelho fill:E64C3C, stroke:#000, stroke-width:1px;
 ```
-    
