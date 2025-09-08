@@ -39,3 +39,17 @@ classDef amarelo fill:#FFD8D, stroke:#000, stroke-width:1px;
 classDef laranja fill:#FFA223, stroke:#000, stroke-width:1px;
 classDef vermelho fill:E64C3C, stroke:#000, stroke-width:1px;
 ```
+gantt
+    title Cronograma de Construção da Casa
+    dateFormat  YYYY-MM-DD
+    section Planejamento e Fundações
+    Planejamento e Aprovações  :a1, 2026-01-01, 20d
+    Preparação do Terreno     :after a1, 10d
+    Construção da Fundação    :after Preparação do Terreno, 15d
+    section Estrutura e Instalações
+    Estruturação da Casa      :b1, after Construção da Fundação, 30d
+    Instalações Elétricas e Hidráulicas :b2, after Estruturação da Casa, 20d
+    section Acabamento e Finalização
+    Acabamento Interno        :c1, after b2, 25d
+    Acabamento Externo        :c2, after Acabamento Interno, 15d
+    Inspeção Final e Entrega  :c3, after c2, 5d
